@@ -1,0 +1,34 @@
+{
+  "_schema": "alaska-bering-sea-marine-heatwave-v1",
+  "_provenance": {
+    "primary_source": "NOAA Pacific Marine Environmental Laboratory (PMEL) — Bering Sea Ecosystem & Fisheries-Oceanography Coordinated Investigation (BSIERP/BEST)",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/ecosystems/ecosystem-based-fisheries-management-alaska",
+    "secondary_sources": [
+      "NOAA EBS Bottom Temperature Survey Records (1982-2024)",
+      "PMEL Ocean Monitoring — SST & OHC Bering Sea Time Series",
+      "Alaska Center for Climate Assessment & Policy (ACCAP)"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "The Eastern Bering Sea shelf has experienced two major marine heatwave events: 'The Blob' (2014-2016, primarily GOA) and 'The Blob 2.0' / prolonged warm period (2017-2021, EBS). EBS bottom temperatures during 2018-2020 were 2-4°C above the 1982-2010 historical mean across the southern shelf. Cold pool extent — the area of bottom water below 2°C — nearly disappeared in 2018 and 2019, a critical habitat feature for pollock. Associated impacts include record crab mortality, northward pollock distribution shift, and reduced juvenile salmon marine survival."
+  },
+  "annual_ess_cold_pool_extent_km2": [
+    {"year": 2000, "cold_pool_km2": 680000, "bottom_temp_anomaly_c": -0.2},
+    {"year": 2010, "cold_pool_km2": 542000, "bottom_temp_anomaly_c": 0.1},
+    {"year": 2012, "cold_pool_km2": 320000, "bottom_temp_anomaly_c": 0.8, "note": "Cold pool decline begins"},
+    {"year": 2017, "cold_pool_km2": 82000,  "bottom_temp_anomaly_c": 2.4, "note": "Blob 2.0 onset"},
+    {"year": 2018, "cold_pool_km2": 18000,  "bottom_temp_anomaly_c": 3.2, "note": "Near-record warm — crab mortality"},
+    {"year": 2019, "cold_pool_km2": 6800,   "bottom_temp_anomaly_c": 3.8, "note": "Record warm — lowest cold pool ever"},
+    {"year": 2020, "cold_pool_km2": 48000,  "bottom_temp_anomaly_c": 2.8},
+    {"year": 2021, "cold_pool_km2": 124000, "bottom_temp_anomaly_c": 1.4, "note": "Moderate recovery"},
+    {"year": 2023, "cold_pool_km2": 284000, "bottom_temp_anomaly_c": 0.4, "note": "Cold conditions return"},
+    {"year": 2024, "cold_pool_km2": 380000, "bottom_temp_anomaly_c": -0.1}
+  ],
+  "ecosystem_impacts": {
+    "bbrkc_mortality_2018_2021_pct": 87,
+    "snow_crab_mortality_2018_2021_pct": 77,
+    "pollock_northward_range_shift_km": 120,
+    "juvenile_chinook_marine_survival_decline_pct": 64,
+    "harmful_algal_bloom_events_2015_2020": 8
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_schema": "alaska-steller-sea-lion-critical-habitat-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries — Steller Sea Lion Conservation & Groundfish Fishery Interaction Reports",
+    "primary_url": "https://www.fisheries.noaa.gov/species/steller-sea-lion",
+    "secondary_sources": [
+      "NMFS Alaska Regional Office — Steller Sea Lion Consultation Records",
+      "ESA Section 7 Biological Opinions — BSAI and GOA Groundfish FMPs",
+      "Alaska SeaLife Center — Steller Sea Lion Research Program"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Steller sea lions (Eumetopias jubatus) were listed as Threatened under the ESA in 1990 and reclassified as Endangered (Western DPS) in 1997. Their decline in the 1970s-1990s coincided with pollock fishery expansion in the Bering Sea and Gulf of Alaska — the 'junk food' hypothesis. After extensive Section 7 consultations, NOAA implemented groundfish fishery restrictions including critical habitat protections, pollock A-season vessel caps, and no-trawl zones around major rookeries. The eastern DPS was delisted in 2013. The western DPS remains endangered with ~85,000 animals."
+  },
+  "population_trend": [
+    {"year": 1956, "western_dps_count": 300000, "eastern_dps_count": 18000, "status": "Pre-decline"},
+    {"year": 1979, "western_dps_count": 282000, "eastern_dps_count": 20000, "status": "Peak count"},
+    {"year": 1990, "western_dps_count": 118000, "eastern_dps_count": 22000, "status": "Listed Threatened"},
+    {"year": 1997, "western_dps_count": 72000,  "eastern_dps_count": 28000, "status": "Western reclassified Endangered"},
+    {"year": 2010, "western_dps_count": 61000,  "eastern_dps_count": 52000, "status": "Eastern recovering"},
+    {"year": 2013, "western_dps_count": 73000,  "eastern_dps_count": 58000, "status": "Eastern DPS Delisted"},
+    {"year": 2020, "western_dps_count": 80000,  "eastern_dps_count": 62000, "status": "Western Endangered"},
+    {"year": 2024, "western_dps_count": 85000,  "eastern_dps_count": 68000, "status": "Western Endangered — gradual recovery"}
+  ],
+  "major_rookeries_alaska": [
+    {"site": "Cape St. Elias (Kayak Island)", "region": "GOA", "peak_pup_count": 420},
+    {"site": "Marmot Island (Kodiak)", "region": "GOA", "peak_pup_count": 1240},
+    {"site": "Ugamak Island (Eastern Aleutians)", "region": "BSAI", "peak_pup_count": 820},
+    {"site": "Adugak Island (Central Aleutians)", "region": "BSAI", "peak_pup_count": 480},
+    {"site": "Seal Rocks (PWS)", "region": "GOA", "peak_pup_count": 280}
+  ],
+  "fishery_interactions": {
+    "critical_habitat_designated_sq_km": 680000,
+    "no_trawl_zones_established": "3nm around all major rookeries and key haulouts",
+    "pollock_a_season_vessel_caps": "Implemented 2001 — Aleutian Island pollock A-season restricted",
+    "estimated_pollock_competition_overlap_pct": 42
+  }
+}
