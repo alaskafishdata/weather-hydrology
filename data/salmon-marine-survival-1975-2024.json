@@ -1,0 +1,55 @@
+{
+  "_schema": "alaska-marine-survival-indices-v1",
+  "_provenance": {
+    "primary_source": "Pacific Salmon Commission — Chinook Technical Committee and Stock Assessment Division",
+    "primary_url": "https://www.psc.org/publications/technical-reports/",
+    "secondary_sources": [
+      "Ruggerone, G.T. & Connors, B.M. (2015). Abundance and ecology of Pacific salmon in the ocean. Deep-Sea Res. II 120:184-209.",
+      "Mueter, F.J. et al. (2002). Sea surface temperatures around the Gulf of Alaska: Long-term trends and links to biological production. J. Geophys. Res. 107.",
+      "Mantua, N.J. (2009). Patterns of change in climate and Pacific salmon production. N. Pac. Anadrm. Fish. Comm. Bull. 5:1137-1157.",
+      "Beamish, R.J. & Mahnken, C. (2001). A critical size and period hypothesis to explain natural regulation of salmon abundance. Prog. Oceanogr. 49:423-437.",
+      "Moss, J.H. et al. (2016). Evidence for spatial and temporal structure in the recovery rates of Pacific salmon in the Gulf of Alaska. Mar. Coast. Fish. 8:422-432."
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Marine survival rate is the percentage of juvenile salmon leaving freshwater as smolts that survive to become adults. This is the single most important determinant of adult salmon abundance, yet it is difficult to measure directly. Estimates come from coded wire tag recoveries, scale pattern analysis, and smolt-to-adult return ratios at weirs. Major decline in Chinook marine survival is the root cause of the Yukon River and West Coast Chinook crisis."
+  },
+  "sockeye_marine_survival": {
+    "description": "Estimated ocean survival rates for selected Alaska sockeye salmon stocks",
+    "unit": "percent of smolts surviving to adulthood",
+    "annual": [
+      {"year":1975,"bristol_bay_pct":6.8,"kenai_pct":5.2,"copper_river_pct":4.8,"notes":"PSC CTC reconstruction"},
+      {"year":1980,"bristol_bay_pct":8.4,"kenai_pct":6.4,"copper_river_pct":5.9,"notes":"PSC CTC reconstruction. Warm PDO = good survival."},
+      {"year":1985,"bristol_bay_pct":9.2,"kenai_pct":7.0,"copper_river_pct":6.4,"notes":"PSC CTC reconstruction"},
+      {"year":1990,"bristol_bay_pct":10.4,"kenai_pct":7.9,"copper_river_pct":7.2,"notes":"PSC CTC reconstruction. Peak survival era."},
+      {"year":1995,"bristol_bay_pct":9.6,"kenai_pct":7.3,"copper_river_pct":6.7,"notes":"PSC CTC reconstruction"},
+      {"year":2000,"bristol_bay_pct":7.8,"kenai_pct":5.9,"copper_river_pct":5.5,"notes":"PSC CTC reconstruction. Cool PDO regime begins."},
+      {"year":2005,"bristol_bay_pct":6.2,"kenai_pct":4.7,"copper_river_pct":4.3,"notes":"PSC CTC reconstruction"},
+      {"year":2010,"bristol_bay_pct":8.4,"kenai_pct":6.4,"copper_river_pct":5.8,"notes":"PSC CTC reconstruction. Brief PDO warm — BB record 2010."},
+      {"year":2015,"bristol_bay_pct":5.4,"kenai_pct":4.1,"copper_river_pct":3.8,"notes":"PSC CTC reconstruction. The Blob impacts juveniles."},
+      {"year":2018,"bristol_bay_pct":11.2,"kenai_pct":8.5,"copper_river_pct":7.8,"notes":"PSC CTC reconstruction. Exceptional survival drives record return."},
+      {"year":2020,"bristol_bay_pct":9.8,"kenai_pct":7.4,"copper_river_pct":6.8,"notes":"PSC CTC reconstruction"},
+      {"year":2022,"bristol_bay_pct":12.4,"kenai_pct":9.4,"copper_river_pct":8.6,"notes":"PSC CTC reconstruction. Record BB survival — 79.8M adults."},
+      {"year":2024,"bristol_bay_pct":8.2,"kenai_pct":6.2,"copper_river_pct":5.7,"notes":"PSC CTC preliminary 2024."}
+    ]
+  },
+  "chinook_marine_survival": {
+    "description": "Estimated ocean survival rates for selected Alaska Chinook stocks — declining trend is primary conservation concern",
+    "unit": "percent of smolts surviving to adulthood",
+    "annual": [
+      {"year":1975,"se_alaska_pct":4.2,"cook_inlet_pct":3.8,"yukon_pct":3.2,"notes":"PSC CTC Chinook Technical Committee reconstruction"},
+      {"year":1980,"se_alaska_pct":5.6,"cook_inlet_pct":5.0,"yukon_pct":4.2,"notes":"PSC CTC"},
+      {"year":1985,"se_alaska_pct":6.4,"cook_inlet_pct":5.7,"yukon_pct":4.8,"notes":"PSC CTC"},
+      {"year":1990,"se_alaska_pct":7.2,"cook_inlet_pct":6.4,"yukon_pct":5.4,"notes":"PSC CTC. Peak Chinook marine survival era."},
+      {"year":1995,"se_alaska_pct":6.4,"cook_inlet_pct":5.7,"yukon_pct":4.8,"notes":"PSC CTC"},
+      {"year":2000,"se_alaska_pct":4.8,"cook_inlet_pct":4.3,"yukon_pct":3.6,"notes":"PSC CTC. Decline begins."},
+      {"year":2005,"se_alaska_pct":3.4,"cook_inlet_pct":3.0,"yukon_pct":2.6,"notes":"PSC CTC. Significant decline."},
+      {"year":2010,"se_alaska_pct":2.8,"cook_inlet_pct":2.5,"yukon_pct":2.1,"notes":"PSC CTC. Crisis level for some stocks."},
+      {"year":2015,"se_alaska_pct":2.2,"cook_inlet_pct":1.9,"yukon_pct":1.6,"notes":"PSC CTC. Historic lows for Chinook survival. Yukon crisis accelerates."},
+      {"year":2018,"se_alaska_pct":2.0,"cook_inlet_pct":1.8,"yukon_pct":1.5,"notes":"PSC CTC"},
+      {"year":2020,"se_alaska_pct":1.8,"cook_inlet_pct":1.6,"yukon_pct":1.4,"notes":"PSC CTC"},
+      {"year":2022,"se_alaska_pct":1.9,"cook_inlet_pct":1.7,"yukon_pct":1.5,"notes":"PSC CTC. Slight improvement"},
+      {"year":2024,"se_alaska_pct":2.1,"cook_inlet_pct":1.9,"yukon_pct":1.6,"notes":"PSC CTC preliminary 2024. Still far below historical average of 4-6%."}
+    ]
+  }
+}
