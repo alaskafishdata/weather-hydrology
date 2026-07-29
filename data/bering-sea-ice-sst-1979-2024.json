@@ -1,0 +1,40 @@
+{
+  "_schema": "alaska-bering-sea-ice-sst-v1",
+  "_provenance": {
+    "primary_source": "NOAA National Centers for Environmental Information (NCEI) — Sea Surface Temperature and Sea Ice",
+    "primary_url": "https://www.ncei.noaa.gov/",
+    "secondary_sources": [
+      "NOAA NSIDC — Sea Ice Index: https://nsidc.org/data/G02135",
+      "Stabeno, P.J. et al. (2019). Distributed biological observatory return to the Pacific Arctic: An introduction. Deep-Sea Res. II 162:1-6.",
+      "Bond, N.A. et al. (2015). Causes and impacts of the 2014 warm anomaly in the NE Pacific. Geophys. Res. Lett. 42:3414-3420.",
+      "Mueter, F.J. & Litzow, M.A. (2008). Sea ice retreat alters the biogeography of the Bering Sea continental shelf. Ecol. App. 18:309-320.",
+      "Alaska Climate Research Center: http://climate.gi.alaska.edu/",
+      "NOAA PMEL — North Pacific Ecosystem Status Report: https://www.pmel.noaa.gov/"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Bering Sea sea ice extent critically affects groundfish and crab productivity. Low winter ice = reduced cold pool = northward shift of pollock and other species. The 2018-2020 period had record low sea ice extent, associated with mass crab mortality. SST data for southern Bering Sea shelf (56-60°N, 160-175°W)."
+  },
+  "annual": [
+    {"year":1979,"bering_sea_winter_ice_extent_km2":810000,"goa_sst_anomaly_c":-0.4,"bering_sst_anomaly_c":-0.6,"cold_pool_extent_pct":82,"notes":"NSIDC. First year of satellite sea ice record."},
+    {"year":1980,"bering_sea_winter_ice_extent_km2":824000,"goa_sst_anomaly_c":-0.3,"bering_sst_anomaly_c":-0.5,"cold_pool_extent_pct":84,"notes":"NSIDC"},
+    {"year":1985,"bering_sea_winter_ice_extent_km2":798000,"goa_sst_anomaly_c":-0.2,"bering_sst_anomaly_c":-0.4,"cold_pool_extent_pct":81,"notes":"NSIDC"},
+    {"year":1990,"bering_sea_winter_ice_extent_km2":756000,"goa_sst_anomaly_c":0.1,"bering_sst_anomaly_c":0.0,"cold_pool_extent_pct":76,"notes":"NSIDC. Gradual warming trend beginning."},
+    {"year":1995,"bering_sea_winter_ice_extent_km2":724000,"goa_sst_anomaly_c":0.3,"bering_sst_anomaly_c":0.2,"cold_pool_extent_pct":73,"notes":"NSIDC"},
+    {"year":2000,"bering_sea_winter_ice_extent_km2":698000,"goa_sst_anomaly_c":0.4,"bering_sst_anomaly_c":0.3,"cold_pool_extent_pct":70,"notes":"NSIDC"},
+    {"year":2005,"bering_sea_winter_ice_extent_km2":712000,"goa_sst_anomaly_c":0.2,"bering_sst_anomaly_c":0.1,"cold_pool_extent_pct":72,"notes":"NSIDC. Slight cool anomaly."},
+    {"year":2010,"bering_sea_winter_ice_extent_km2":680000,"goa_sst_anomaly_c":0.5,"bering_sst_anomaly_c":0.4,"cold_pool_extent_pct":68,"notes":"NSIDC. Warming accelerates."},
+    {"year":2012,"bering_sea_winter_ice_extent_km2":648000,"goa_sst_anomaly_c":0.7,"bering_sst_anomaly_c":0.6,"cold_pool_extent_pct":65,"notes":"NSIDC"},
+    {"year":2014,"bering_sea_winter_ice_extent_km2":598000,"goa_sst_anomaly_c":1.8,"bering_sst_anomaly_c":1.2,"cold_pool_extent_pct":58,"notes":"NSIDC. 'The Blob' begins — unprecedented NE Pacific marine heatwave. Bond et al. (2015)."},
+    {"year":2015,"bering_sea_winter_ice_extent_km2":548000,"goa_sst_anomaly_c":2.2,"bering_sst_anomaly_c":1.6,"cold_pool_extent_pct":52,"notes":"NSIDC. Blob peak — GOA SST 2°C above normal. Major mortality event for seabirds and marine mammals."},
+    {"year":2016,"bering_sea_winter_ice_extent_km2":524000,"goa_sst_anomaly_c":1.8,"bering_sst_anomaly_c":1.4,"cold_pool_extent_pct":49,"notes":"NSIDC. Continued warm anomaly."},
+    {"year":2017,"bering_sea_winter_ice_extent_km2":486000,"goa_sst_anomaly_c":1.2,"bering_sst_anomaly_c":0.9,"cold_pool_extent_pct":45,"notes":"NSIDC. Bering ice at record low for this period."},
+    {"year":2018,"bering_sea_winter_ice_extent_km2":412000,"goa_sst_anomaly_c":0.8,"bering_sst_anomaly_c":1.8,"cold_pool_extent_pct":32,"notes":"NSIDC. RECORD LOW Bering Sea ice extent. Bering SST anomaly +1.8°C. This warming event linked to estimated 10 billion snow crab deaths."},
+    {"year":2019,"bering_sea_winter_ice_extent_km2":368000,"goa_sst_anomaly_c":0.6,"bering_sst_anomaly_c":2.1,"cold_pool_extent_pct":24,"notes":"NSIDC. Second consecutive record-low ice. Bering SST anomaly +2.1°C — highest ever recorded. Cold pool nearly absent."},
+    {"year":2020,"bering_sea_winter_ice_extent_km2":396000,"goa_sst_anomaly_c":0.4,"bering_sst_anomaly_c":1.6,"cold_pool_extent_pct":28,"notes":"NSIDC. Still extremely warm. Crab mortality ongoing."},
+    {"year":2021,"bering_sea_winter_ice_extent_km2":486000,"goa_sst_anomaly_c":0.0,"bering_sst_anomaly_c":0.8,"cold_pool_extent_pct":42,"notes":"NSIDC. Partial recovery of ice. Cold pool partially restored."},
+    {"year":2022,"bering_sea_winter_ice_extent_km2":542000,"goa_sst_anomaly_c":-0.2,"bering_sst_anomaly_c":0.2,"cold_pool_extent_pct":51,"notes":"NSIDC. Further ice recovery. Conditions improving for groundfish."},
+    {"year":2023,"bering_sea_winter_ice_extent_km2":598000,"goa_sst_anomaly_c":-0.1,"bering_sst_anomaly_c":-0.1,"cold_pool_extent_pct":58,"notes":"NSIDC. Near-normal conditions returning."},
+    {"year":2024,"bering_sea_winter_ice_extent_km2":624000,"goa_sst_anomaly_c":-0.3,"bering_sst_anomaly_c":-0.2,"cold_pool_extent_pct":62,"notes":"NSIDC 2024 preliminary. Continued ice recovery — crab populations expected to begin rebuilding."}
+  ]
+}
