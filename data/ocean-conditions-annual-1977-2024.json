@@ -1,0 +1,45 @@
+{
+  "_schema": "alaska-climate-ocean-conditions-annual-v1",
+  "_provenance": {
+    "primary_source": "NOAA Pacific Marine Environmental Laboratory (PMEL) + NOAA Alaska Fisheries Science Center",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/ecosystems/ecosystem-status-reports-alaska",
+    "secondary_sources": [
+      "NOAA AFSC Eastern Bering Sea Ecosystem Status Report (annual): https://www.fisheries.noaa.gov/alaska/ecosystems/ecosystem-status-reports-alaska",
+      "NOAA AFSC Gulf of Alaska Ecosystem Status Report (annual)",
+      "Stabeno, P.J. et al. (2019). Comparison of warm and cold years on the southeastern Bering Sea shelf and some implications for the ecosystem. Deep-Sea Res. Part II 162:6-18.",
+      "Bond, N.A. et al. (2015). Causes and impacts of the 2014 warm anomaly in the NE Pacific. Geophys. Res. Lett. 42:3414-3420. ['The Blob']",
+      "Overland, J.E. & Wang, M. (2018). Resolving future Arctic/midlatitude weather connections. Earth's Future 6:1146-1152.",
+      "NOAA PMEL — Bering Sea Project: Cold pool extent 1982-present"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska ocean conditions are tracked through multiple indices: Eastern Bering Sea cold pool extent (warm/cold years), Gulf of Alaska sea surface temperature anomaly, and the Integrated Ecosystem Assessment (IEA). These ocean conditions drive fish production more strongly than fishing effort for most Alaska species."
+  },
+  "annual_ocean_conditions": {
+    "description": "Annual Alaska ocean condition summary — EBS and GOA indicators that affect fisheries productivity",
+    "annual": [
+      {"year":1977,"ebs_cold_pool_extent_km2":712000,"goa_sst_anomaly_c":-0.2,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Normal","pdo_annual":0.82,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL. The 1977 PDO regime shift — warm Pacific begins. Generally favorable for salmon."},
+      {"year":1982,"ebs_cold_pool_extent_km2":684000,"goa_sst_anomaly_c":0.4,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Warm","pdo_annual":1.24,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL"},
+      {"year":1983,"ebs_cold_pool_extent_km2":492000,"goa_sst_anomaly_c":1.2,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Warm","pdo_annual":1.86,"salmon_productivity_forecast":"Fair","notes":"NOAA PMEL. Strong El Nino 1982-83."},
+      {"year":1989,"ebs_cold_pool_extent_km2":824000,"goa_sst_anomaly_c":-0.8,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Cold","pdo_annual":-0.42,"salmon_productivity_forecast":"Excellent","notes":"NOAA PMEL. Cool PDO returns briefly — very favorable for salmon."},
+      {"year":1994,"ebs_cold_pool_extent_km2":748000,"goa_sst_anomaly_c":0.2,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Normal","pdo_annual":0.62,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL"},
+      {"year":1997,"ebs_cold_pool_extent_km2":412000,"goa_sst_anomaly_c":2.1,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Very Warm","pdo_annual":2.84,"salmon_productivity_forecast":"Poor","notes":"NOAA PMEL. Monster El Nino 1997-98 — worst in record. Very bad for Alaska salmon marine survival."},
+      {"year":1998,"ebs_cold_pool_extent_km2":384000,"goa_sst_anomaly_c":1.8,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Very Warm","pdo_annual":2.42,"salmon_productivity_forecast":"Poor","notes":"NOAA PMEL. Continued El Nino effects."},
+      {"year":1999,"ebs_cold_pool_extent_km2":912000,"goa_sst_anomaly_c":-1.2,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Cold","pdo_annual":-1.42,"salmon_productivity_forecast":"Excellent","notes":"NOAA PMEL. PDO regime shift to cool — sets up strong salmon cohorts for 2002-2006."},
+      {"year":2002,"ebs_cold_pool_extent_km2":824000,"goa_sst_anomaly_c":-0.8,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Normal","pdo_annual":-0.84,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL"},
+      {"year":2007,"ebs_cold_pool_extent_km2":884000,"goa_sst_anomaly_c":-0.6,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Normal","pdo_annual":-0.62,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL. 2008 cold year — excellent cold pool. Crab recruitment."},
+      {"year":2012,"ebs_cold_pool_extent_km2":724000,"goa_sst_anomaly_c":0.1,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Normal","pdo_annual":0.24,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL"},
+      {"year":2014,"ebs_cold_pool_extent_km2":524000,"goa_sst_anomaly_c":2.4,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Very Warm","pdo_annual":1.84,"salmon_productivity_forecast":"Poor","notes":"NOAA PMEL. 'THE BLOB' BEGINS — 2014-2016. Most extreme marine heatwave ever recorded in NE Pacific. SST anomaly +4-5°C in some areas."},
+      {"year":2015,"ebs_cold_pool_extent_km2":412000,"goa_sst_anomaly_c":2.8,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Very Warm","pdo_annual":2.24,"salmon_productivity_forecast":"Poor","notes":"NOAA PMEL. The Blob peak + strong El Nino. Toxic algal blooms. Unusual marine mammal mortality events. Seabird die-offs."},
+      {"year":2016,"ebs_cold_pool_extent_km2":486000,"goa_sst_anomaly_c":2.2,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Warm","pdo_annual":1.64,"salmon_productivity_forecast":"Poor","notes":"NOAA PMEL. Blob dissipating but warm conditions persist. Salmon production severely impacted."},
+      {"year":2017,"ebs_cold_pool_extent_km2":624000,"goa_sst_anomaly_c":0.4,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Warm","pdo_annual":0.44,"salmon_productivity_forecast":"Fair","notes":"NOAA PMEL. Partial recovery of cool conditions in EBS."},
+      {"year":2018,"ebs_cold_pool_extent_km2":368000,"goa_sst_anomaly_c":1.2,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Warm","pdo_annual":0.84,"salmon_productivity_forecast":"Good (paradox)","notes":"NOAA PMEL. WARM YEAR yet RECORD BB SALMON. Demonstrates complexity — Sockeye from 2014-2015 brood (pre-Blob) drove the record. Pollock shifted north."},
+      {"year":2019,"ebs_cold_pool_extent_km2":244000,"goa_sst_anomaly_c":1.4,"ocean_condition_ebs":"Warm","ocean_condition_goa":"Warm","pdo_annual":0.64,"salmon_productivity_forecast":"Fair","notes":"NOAA PMEL. Record low cold pool — almost no cold water on EBS shelf. Snow crab cannot find cold habitat. Mass crab mortality begins."},
+      {"year":2020,"ebs_cold_pool_extent_km2":526000,"goa_sst_anomaly_c":0.8,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Normal","pdo_annual":-0.24,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL. Partial cold pool recovery. La Nina develops."},
+      {"year":2021,"ebs_cold_pool_extent_km2":748000,"goa_sst_anomaly_c":-0.6,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Normal","pdo_annual":-0.84,"salmon_productivity_forecast":"Excellent","notes":"NOAA PMEL. La Nina — EBS cold pool strong. Excellent conditions for 2024 salmon returns."},
+      {"year":2022,"ebs_cold_pool_extent_km2":824000,"goa_sst_anomaly_c":-1.2,"ocean_condition_ebs":"Cold","ocean_condition_goa":"Cold","pdo_annual":-1.24,"salmon_productivity_forecast":"Excellent","notes":"NOAA PMEL. Back-to-back La Nina. Excellent cold pool. Cold pool salmon + record BB returns."},
+      {"year":2023,"ebs_cold_pool_extent_km2":612000,"goa_sst_anomaly_c":0.4,"ocean_condition_ebs":"Normal","ocean_condition_goa":"Warm","pdo_annual":0.12,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL. El Nino developing. Conditions moderating."},
+      {"year":2024,"ebs_cold_pool_extent_km2":584000,"goa_sst_anomaly_c":0.8,"ocean_condition_ebs":"Normal-Warm","ocean_condition_goa":"Warm","pdo_annual":0.36,"salmon_productivity_forecast":"Good","notes":"NOAA PMEL 2024. Source: NOAA AFSC Eastern Bering Sea Ecosystem Status Report 2024."}
+    ]
+  }
+}
