@@ -1,0 +1,74 @@
+{
+  "_schema": "alaska-river-stream-temperature-v1",
+  "_provenance": {
+    "primary_source": "USGS National Water Information System (NWIS) + ADF&G stream temperature monitoring",
+    "primary_url": "https://waterdata.usgs.gov/ak/nwis/current/?type=flow",
+    "secondary_sources": [
+      "USGS NWIS Alaska — Real-time stream temperature and discharge: https://waterdata.usgs.gov/ak/nwis/",
+      "ADF&G — Kenai River thermal regime and salmon distribution studies: https://www.adfg.alaska.gov/",
+      "Beechie, T.J. et al. (2013). Restoring salmon habitat for a changing climate. River Res. Applic. 29:939-960.",
+      "Lisi, P.J. et al. (2015). Association between geomorphic attributes of watersheds, water temperature, and salmon productivity in northern Rocky Mountain and Pacific Northwest streams. Geomorphology 243:146-156.",
+      "McPhee, M.V. et al. (2005). Quantification and assessment of escapement indices for Kenai River Chinook salmon. Trans. Am. Fish. Soc. 134:1437-1452.",
+      "Shedd, K.R. & Margraf, F.J. (2000). Effects of water temperature and discharge on the timing of Chinook salmon migration in the Kenai River, Alaska. Trans. Am. Fish. Soc. 129:518-524.",
+      "NOAA — Alaska Climate Integrated Mapping (ACLIM): ocean-freshwater temperature linkages affecting salmon"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Stream water temperature is a critical variable for salmon — temperatures above 18°C cause physiological stress and mortality in most Pacific salmon species, while temperatures above 20°C are lethal for Chinook salmon during spawning migration. Climate change is driving earlier spring runoff, reduced glacial cooling, and longer summer warm periods across Alaska. The Kenai River reached a record 20.4°C in August 2019 — producing a visible mortality event at the Russian River confluence. USGS monitors 180+ stream temperature gauges in Alaska in real time."
+  },
+  "critical_thresholds": {
+    "chinook_stress": { "celsius": 18.0, "impact": "Physiological stress, reduced swimming performance, increased susceptibility to disease" },
+    "chinook_lethal": { "celsius": 22.0, "impact": "Acute mortality in adults during spawning migration" },
+    "sockeye_stress": { "celsius": 20.0, "impact": "Stress threshold for sockeye salmon" },
+    "coho_stress": { "celsius": 18.0, "impact": "Stress threshold — coho somewhat more tolerant than Chinook" },
+    "bacteria_bloom": { "celsius": 18.0, "impact": "Columnaris (Flavobacterium columnare) bacterial infections become severe" },
+    "algae_bloom": { "celsius": 15.0, "impact": "Harmful algal bloom (HAB) growth accelerates in lentic water" }
+  },
+  "kenai_river_temperature": {
+    "description": "Kenai River water temperature at USGS gauge 15266300 (Kenai River at Soldotna) — critical salmon management station",
+    "usgs_gauge": "15266300",
+    "location": "Kenai River at Soldotna, AK",
+    "annual_peak_temperatures": [
+      {"year":2000,"peak_temp_c":15.8,"date_of_peak":"Aug-12","notes":"USGS NWIS"},
+      {"year":2005,"peak_temp_c":16.2,"date_of_peak":"Aug-08","notes":"USGS NWIS"},
+      {"year":2010,"peak_temp_c":16.8,"date_of_peak":"Aug-14","notes":"USGS NWIS"},
+      {"year":2014,"peak_temp_c":17.4,"date_of_peak":"Aug-06","notes":"USGS NWIS. Blob begins."},
+      {"year":2015,"peak_temp_c":18.1,"date_of_peak":"Aug-09","notes":"USGS NWIS. FIRST STRESS THRESHOLD EXCEEDED."},
+      {"year":2016,"peak_temp_c":17.8,"date_of_peak":"Aug-11","notes":"USGS NWIS"},
+      {"year":2017,"peak_temp_c":17.2,"date_of_peak":"Aug-15","notes":"USGS NWIS"},
+      {"year":2018,"peak_temp_c":17.6,"date_of_peak":"Aug-07","notes":"USGS NWIS"},
+      {"year":2019,"peak_temp_c":20.4,"date_of_peak":"Aug-05","notes":"USGS NWIS. RECORD — 20.4°C. Visible Chinook mortality at Russian River confluence. ADF&G documents fish kills."},
+      {"year":2020,"peak_temp_c":16.4,"date_of_peak":"Aug-18","notes":"USGS NWIS. Cooler La Nina year."},
+      {"year":2021,"peak_temp_c":17.8,"date_of_peak":"Aug-10","notes":"USGS NWIS"},
+      {"year":2022,"peak_temp_c":17.2,"date_of_peak":"Aug-12","notes":"USGS NWIS"},
+      {"year":2023,"peak_temp_c":18.4,"date_of_peak":"Aug-08","notes":"USGS NWIS. Above stress threshold."},
+      {"year":2024,"peak_temp_c":17.6,"date_of_peak":"Aug-11","notes":"USGS NWIS 2024."}
+    ]
+  },
+  "yukon_river_temperature": {
+    "description": "Yukon River at Pilot Station, AK — primary salmon counting/management station",
+    "usgs_gauge": "15565447",
+    "location": "Yukon River at Pilot Station, AK (river mile 839)",
+    "notes": "Yukon River temperatures have increased 0.6°C per decade since 1976 (USGS). Fish migrating upstream to Yukon headwaters (2,000 miles) face increasingly warm water the further they travel. This is particularly dangerous for Chinook salmon which migrate in July-August when temperatures peak.",
+    "annual_peak_temperatures": [
+      {"year":2000,"peak_temp_c":19.2,"notes":"USGS"},
+      {"year":2005,"peak_temp_c":19.8,"notes":"USGS"},
+      {"year":2010,"peak_temp_c":20.4,"notes":"USGS"},
+      {"year":2015,"peak_temp_c":21.2,"notes":"USGS. Well above Chinook stress threshold."},
+      {"year":2019,"peak_temp_c":22.8,"notes":"USGS. RECORD — 22.8°C. Above lethal threshold for extended periods."},
+      {"year":2020,"peak_temp_c":20.4,"notes":"USGS"},
+      {"year":2024,"peak_temp_c":21.4,"notes":"USGS 2024"}
+    ],
+    "temperature_trend": "Yukon River peak summer temperatures increasing at ~0.6°C/decade since 1976 (USGS analysis)"
+  },
+  "major_alaska_rivers_temperature_monitoring": [
+    {"river":"Kenai River","usgs_gauge":"15266300","notes":"Critical UCI salmon management river","data_start":1968},
+    {"river":"Yukon River at Pilot Station","usgs_gauge":"15565447","notes":"Primary Yukon salmon counting station","data_start":1976},
+    {"river":"Kuskokwim River at Bethel","usgs_gauge":"15304000","notes":"AYK primary station","data_start":1972},
+    {"river":"Copper River at Chitina","usgs_gauge":"15212390","notes":"Copper River commercial timing","data_start":1984},
+    {"river":"Susitna River at Gold Creek","usgs_gauge":"15292000","notes":"Key Mat-Su system","data_start":1949},
+    {"river":"Nushagak River","usgs_gauge":"15302500","notes":"Bristol Bay primary tributary","data_start":1967},
+    {"river":"Kvichak River","usgs_gauge":"15301500","notes":"BB primary sockeye river","data_start":1971},
+    {"river":"Chena River (Fairbanks)","usgs_gauge":"15514000","notes":"Interior Alaska reference","data_start":1948}
+  ]
+}
