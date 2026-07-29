@@ -1,0 +1,36 @@
+{
+  "_schema": "alaska-ocean-acidification-v1",
+  "_provenance": {
+    "primary_source": "NOAA Pacific Marine Environmental Laboratory (PMEL) — Ocean Acidification Monitoring Network, Gulf of Alaska & Bering Sea Buoy Data",
+    "primary_url": "https://www.pmel.noaa.gov/co2/timeseries/",
+    "secondary_sources": [
+      "University of Alaska Fairbanks Ocean Acidification Research Center",
+      "NOAA OA Program — Alaska Regional Reports",
+      "AOOS — Alaska Ocean Observing System pH Monitoring"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's cold, high-latitude waters are among the world's most vulnerable to ocean acidification (OA). Cold seawater absorbs CO2 more readily than tropical waters, and upwelling along the GOA and Bering Sea shelves brings naturally CO2-rich deep water to the surface. Surface ocean pH in the GOA has declined from ~8.10 in 1980 to ~8.01 in 2024 — a 22% increase in ocean acidity. Pteropods (sea butterflies), key prey for juvenile pink salmon and pollock, show shell dissolution at pH levels now commonly observed in GOA surface waters."
+  },
+  "annual_ph_measurements": [
+    {"year": 1980, "goa_surface_ph": 8.10, "bering_sea_surface_ph": 8.12, "note": "Pre-industrial baseline estimate"},
+    {"year": 2000, "goa_surface_ph": 8.07, "bering_sea_surface_ph": 8.08},
+    {"year": 2010, "goa_surface_ph": 8.05, "bering_sea_surface_ph": 8.06},
+    {"year": 2015, "goa_surface_ph": 8.04, "bering_sea_surface_ph": 8.05},
+    {"year": 2020, "goa_surface_ph": 8.02, "bering_sea_surface_ph": 8.03},
+    {"year": 2024, "goa_surface_ph": 8.01, "bering_sea_surface_ph": 8.02}
+  ],
+  "vulnerable_species": [
+    {"species": "Pteropods (Limacina helicina)", "vulnerability": "CRITICAL — shell dissolution at pH < 8.05, key juvenile salmon prey"},
+    {"species": "Dungeness Crab larvae", "vulnerability": "HIGH — larval calcification impaired"},
+    {"species": "Pacific Oysters (aquaculture)", "vulnerability": "HIGH — larvae die at aragonite saturation < 1.0"},
+    {"species": "Red King Crab", "vulnerability": "MODERATE — juvenile calcification impacted"},
+    {"species": "Walleye Pollock (larvae)", "vulnerability": "LOW-MODERATE — impacts on prey food web"}
+  ],
+  "oa_monitoring_sites": [
+    {"site": "Kodiak buoy (GAK1)", "depth_m": 250, "operator": "UAF/NOAA"},
+    {"site": "Southeast Bering Sea mooring M2", "depth_m": 70, "operator": "NOAA PMEL"},
+    {"site": "Resurrection Bay OA Buoy", "depth_m": 30, "operator": "NOAA AOOS"},
+    {"site": "Icy Bay GOA coastal", "depth_m": 20, "operator": "UAF"}
+  ]
+}
