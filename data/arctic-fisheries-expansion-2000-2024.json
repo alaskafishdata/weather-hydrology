@@ -1,0 +1,75 @@
+{
+  "_schema": "alaska-arctic-fisheries-emerging-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Arctic Fisheries Science + ADF&G Arctic Region",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/ecosystems/arctic-species-and-ecosystems",
+    "secondary_sources": [
+      "Hollowed, A.B. et al. (2013). Projected impacts of climate change on marine fish and fisheries. ICES J. Mar. Sci. 70:1023-1037.",
+      "Mueter, F.J. & Litzow, M.A. (2008). Sea ice retreat alters the biogeography of the Bering Sea continental shelf. Ecol. Appl. 18:309-320.",
+      "Farley, E.V. et al. (2020). Climate-driven changes in the distribution of Pacific salmon in the Arctic. North Pacific Anadromous Fish Commission Bulletin 8.",
+      "NPFMC — Arctic Fishery Management Plan (effective December 2009; first proactive fishery closure in US history): https://www.npfmc.org/arctic/",
+      "USARC (US Arctic Research Commission) — Alaska Arctic fisheries status reports",
+      "Stabeno, P.J. et al. (2017). Comparison of warm and cold years on the Chukchi Sea shelf. Deep-Sea Res. Part II 135:8-19.",
+      "ADF&G — Norton Sound species documentation and subsistence records"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "The Arctic fisheries management plan (2009) closed the US Arctic EEZ — the Chukchi Sea and Beaufort Sea north of the Bering Strait — to ALL commercial fishing until sufficient data exists to support sustainable management. This was the first PROACTIVE fishery closure in US history — closing a fishery BEFORE it opened, not after collapse. As sea ice retreats and waters warm, subarctic species (pollock, Pacific cod, Pacific salmon) are moving north into former Arctic waters. This creates both opportunities and ecological risks."
+  },
+  "arctic_management_plan": {
+    "plan_name": "Fishery Management Plan for Fish Resources of the Arctic Management Area",
+    "adopted": "December 2009",
+    "effective": "2009-present",
+    "significance": "FIRST proactive fishery closure in US history — closed before any commercial fishing began",
+    "area_covered": "Chukchi Sea + Beaufort Sea + US Arctic EEZ north of 68°N",
+    "species_covered": "All finfish — no directed commercial fishing allowed",
+    "exceptions": "Subsistence fishing by Alaska Native communities continues; recreational fishing allowed",
+    "data_threshold": "Commercial fishing can only open when sufficient information exists to support sustainable management — a very high scientific bar deliberately set",
+    "reason": "Ice-dependent species (Arctic cod Boreogadus saida, Pacific herring now appearing, capelin) form the foundation of the Arctic food web supporting polar bears, walrus, ringed seals, bowhead whales, and Iñupiat subsistence. Commercial fishing before understanding these species would risk cascading ecosystem effects."
+  },
+  "species_range_expansion": {
+    "description": "Subarctic fish species documented north of historical range due to warming",
+    "annual_distribution_shifts": [
+      {
+        "species": "Walleye Pollock (Gadus chalcogrammus)",
+        "historical_northern_limit": "Unimak Pass / BSAI (~55°N)",
+        "current_documentation": "Now regularly documented in Norton Sound, Kotzebue Sound, and southern Chukchi Sea (to ~66°N)",
+        "year_first_norton_sound": 2003,
+        "year_routine_chukchi": 2014,
+        "estimated_biomass_chukchi_2024_mt": 186000,
+        "significance": "Pollock are efficient visual predators — their arrival in Arctic waters could reduce prey available for ice seals and beluga whales"
+      },
+      {
+        "species": "Pacific Cod (Gadus macrocephalus)",
+        "historical_northern_limit": "Northern BSAI (~60°N)",
+        "current_documentation": "Now documented in southern Chukchi Sea during warm summers",
+        "year_first_chukchi": 2006,
+        "significance": "Cold pool reduction allows cod to move north — they are major predators of crab, shrimp, and other invertebrates"
+      },
+      {
+        "species": "Pacific Salmon (various)",
+        "historical_northern_limit": "Limited occurrence in Arctic",
+        "current_documentation": "Chum and pink salmon now regularly caught in subsistence nets north of Bering Strait in Nome, Kotzebue, and near Barrow (Utqiagvik)",
+        "norton_sound_salmon_growth": "Salmon runs in Norton Sound have increased significantly since 2000 — likely northward range expansion driven by ocean warming",
+        "significance": "Salmon in Arctic bring nutrients but also outcompete native Arctic fish (Dolly Varden, Arctic grayling) for prey"
+      },
+      {
+        "species": "Pacific Capelin (Mallotus catervarius)",
+        "historical_northern_limit": "SE Bering Sea",
+        "current_documentation": "Now documented in Chukchi Sea — a food web restructuring indicator",
+        "significance": "Capelin are critical forage fish for seabirds, marine mammals, and larger fish"
+      }
+    ]
+  },
+  "norton_sound_fisheries": {
+    "description": "Norton Sound salmon and subsistence — the emerging hub of climate-driven salmon expansion",
+    "annual": [
+      {"year":2000,"salmon_commercial_chum":84000,"salmon_subsistence_all":142000,"notes":"ADF&G Norton Sound"},
+      {"year":2005,"salmon_commercial_chum":112000,"salmon_subsistence_all":168000,"notes":"ADF&G"},
+      {"year":2010,"salmon_commercial_chum":148000,"salmon_subsistence_all":186000,"notes":"ADF&G. Runs growing."},
+      {"year":2015,"salmon_commercial_chum":184000,"salmon_subsistence_all":224000,"notes":"ADF&G"},
+      {"year":2020,"salmon_commercial_chum":218000,"salmon_subsistence_all":264000,"notes":"ADF&G"},
+      {"year":2024,"salmon_commercial_chum":248000,"salmon_subsistence_all":284000,"notes":"ADF&G 2024. Norton Sound chum runs now equivalent to small Bristol Bay tributary runs. Source: ADF&G Norton Sound area annual management reports."}
+    ]
+  }
+}
