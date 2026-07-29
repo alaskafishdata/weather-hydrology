@@ -1,0 +1,35 @@
+{
+  "_schema": "subarctic-climate-indices-sea-ice-v1",
+  "_provenance": {
+    "primary_source": "National Snow and Ice Data Center (NSIDC) & NOAA Physical Sciences Laboratory",
+    "primary_url": "https://nsidc.org/data/seaice_index",
+    "secondary_sources": [
+      "NOAA Arctic Report Card (annual 2006-2024): https://arctic.noaa.gov/Report-Card/",
+      "Bering Climate & Ecosystem Study (BEST-BSIERP): https://www.nprb.org/bering-sea-project/"
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Bering Sea winter ice extent directly establishes the Bering Sea 'Cold Pool' (water < 2°C) during spring melt. The cold pool acts as an ecological barrier separating subarctic groundfish (pollock, cod) from Arctic crab habitat (snow crab). The unprecedented winter sea ice loss of 2018 and 2019 eliminated the cold pool, triggering the catastrophic snow crab collapse."
+  },
+  "bering_sea_ice_extent_march_sq_km_thousands": [
+    { "year": 1980, "extent_sq_km_k": 820, "cold_pool_status": "Extensive" },
+    { "year": 1985, "extent_sq_km_k": 790, "cold_pool_status": "Extensive" },
+    { "year": 1990, "extent_sq_km_k": 760, "cold_pool_status": "Normal" },
+    { "year": 1995, "extent_sq_km_k": 810, "cold_pool_status": "Extensive" },
+    { "year": 2000, "extent_sq_km_k": 740, "cold_pool_status": "Normal" },
+    { "year": 2005, "extent_sq_km_k": 620, "cold_pool_status": "Reduced" },
+    { "year": 2010, "extent_sq_km_k": 830, "cold_pool_status": "Extensive" },
+    { "year": 2012, "extent_sq_km_k": 910, "cold_pool_status": "Record Maximum" },
+    { "year": 2018, "extent_sq_km_k": 180, "cold_pool_status": "CRITICAL NADIR — 80% loss" },
+    { "year": 2019, "extent_sq_km_k": 210, "cold_pool_status": "CRITICAL NADIR — Cold pool eliminated" },
+    { "year": 2021, "extent_sq_km_k": 540, "cold_pool_status": "Partial recovery" },
+    { "year": 2024, "extent_sq_km_k": 610, "cold_pool_status": "Moderate" }
+  ],
+  "bering_strait_water_temp_august_c": [
+    { "year": 2000, "temp_c": 5.2 },
+    { "year": 2010, "temp_c": 6.1 },
+    { "year": 2018, "temp_c": 9.4 },
+    { "year": 2019, "temp_c": 10.2 },
+    { "year": 2024, "temp_c": 8.1 }
+  ]
+}
