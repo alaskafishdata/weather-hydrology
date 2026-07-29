@@ -1,0 +1,26 @@
+{
+  "_schema": "alaska-ocean-acidification-impact-v1",
+  "_provenance": {
+    "primary_source": "NOAA Pacific Marine Environmental Laboratory (PMEL) & Alaska Ocean Acidification Network",
+    "primary_url": "https://aoan.aoos.org/",
+    "secondary_sources": [
+      "Mathis, J.T. et al. (2015). Ocean acidification risk assessment for Alaska's fishery sector. Progress in Oceanography 136:71-91.",
+      "Long, W.C. et al. (2013). Effects of ocean acidification on juvenile red king crab and Tanner crab. PLoS ONE 8(4)."
+    ],
+    "compiled_by": "alaskafishdata/weather-hydrology",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska seas are experiencing ocean acidification (OA) faster than any other open-ocean region on Earth due to cold water absorbing more atmospheric CO2 and seasonal upwelling. NOAA PMEL monitoring shows aragonite undersaturation (Ω aragonite < 1.0) occurring during winter in the Bering Sea and Gulf of Alaska. Laboratory studies confirm that OA reduces juvenile Red King Crab and Tanner Crab shell calcification and survival by 30-70%, posing long-term risks to shellfish and pteropod-based forage food webs."
+  },
+  "monitoring_stations": [
+    { "name": "GAK1 Mooring", "region": "Gulf of Alaska (Resurrection Bay)", "ph_surface_avg": 8.08, "aragonite_saturation_winter": 1.15, "trend": "Acidifying 0.002 pH/yr" },
+    { "name": "M2 Mooring", "region": "Bering Sea Shelf", "ph_surface_avg": 8.02, "aragonite_saturation_winter": 0.88, "trend": "Winter Undersaturated" },
+    { "name": "Beaufort Sea Shelf Station", "region": "Arctic Ocean", "ph_surface_avg": 7.94, "aragonite_saturation_winter": 0.72, "trend": "Severe Undersaturation" }
+  ],
+  "species_vulnerability_matrix": [
+    { "species": "Red King Crab", "impact": "High — Reduced larval survival & calcification in Ω < 1.0 waters", "vulnerability_score": 9.2 },
+    { "species": "Tanner Crab", "impact": "High — Decreased carapace hardness and 50% higher mortality rate", "vulnerability_score": 8.8 },
+    { "species": "Pteropods (Limacina helicina)", "impact": "Critical — Shell dissolution occurring in 20% of GOA surface samples", "vulnerability_score": 9.8 },
+    { "species": "Pink Salmon", "impact": "Moderate — Indirect impact via pteropod prey loss in North Pacific", "vulnerability_score": 6.5 },
+    { "species": "Walleye Pollock", "impact": "Low — Direct physiological impact mild, prey shift resilience high", "vulnerability_score": 3.2 }
+  ]
+}
