@@ -1,0 +1,60 @@
+name: Update Weather & Hydrology
+
+on:
+  schedule:
+    # Every hour at :05 past the hour
+    - cron: '5 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-weather-hydrology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch NOAA NWS weather for Kodiak, Kenai, Anchorage, Bethel
+        run: |
+          python3 scripts/fetch-weather.py
+
+      - name: Fetch USGS real-time streamflow (Kenai, Copper, Susitna, Yukon)
+        run: |
+          python3 scripts/fetch-hydrology.py
+
+      - name: Validate outputs
+        run: |
+          python3 -c "
+          import json
+          for f in ['data/weather.json', 'data/hydrology.json']:
+              data = json.load(open(f))
+              print(f'✓ {f}: {len(str(data))} chars')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "alaskafishdata-bot"
+          git config --local user.email "bot@alaskafishdata.com"
+          git add data/weather.json data/hydrology.json
+          if git diff --staged --quiet; then
+            echo "No weather changes"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            git commit -m "data(wx): hourly weather+hydrology update @ ${TIMESTAMP} [skip ci]"
+            git push
+          fi
