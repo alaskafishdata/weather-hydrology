@@ -1,1 +1,92 @@
-{ "_meta": { "source": "USGS NWIS", "generated": "2026-07-29T05:00:00Z", "count": 0 }, "stations": [] }
+{
+  "_meta": {
+    "source": "USGS National Water Information System (NWIS) \u2014 Instantaneous Values",
+    "source_url": "https://waterservices.usgs.gov/",
+    "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+    "update_frequency": "Hourly via GitHub Actions",
+    "parameter": "Discharge (00060) in cubic feet per second (cfs)",
+    "gauge_count": 5
+  },
+  "gauges": {
+    "kenai_at_soldotna": {
+      "site_no": "15266300",
+      "description": "Kenai River at Soldotna, AK",
+      "river": "Kenai River",
+      "region": "Upper Cook Inlet",
+      "salmon_relevance": "Primary flow gauge for Kenai sonar adjustment factors",
+      "typical_june_cfs": 12400,
+      "typical_july_cfs": 18600,
+      "typical_aug_cfs": 14200,
+      "current_cfs": 17200.0,
+      "observed_at": "2026-07-28T22:00:00.000-08:00",
+      "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+      "flow_status": "normal",
+      "pct_of_seasonal_typical": 92.5,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15266300"
+    },
+    "copper_near_chitina": {
+      "site_no": "15214000",
+      "description": "Copper River near Chitina, AK",
+      "river": "Copper River",
+      "region": "Prince William Sound",
+      "salmon_relevance": "Copper River commercial salmon fishery management",
+      "typical_june_cfs": 124000,
+      "typical_july_cfs": 168000,
+      "typical_aug_cfs": 142000,
+      "current_cfs": 162000.0,
+      "observed_at": "2026-07-28T21:45:00.000-08:00",
+      "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+      "flow_status": "normal",
+      "pct_of_seasonal_typical": 96.4,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15214000"
+    },
+    "susitna_near_talkeetna": {
+      "site_no": "15292000",
+      "description": "Susitna River near Talkeetna, AK",
+      "river": "Susitna River",
+      "region": "Upper Cook Inlet",
+      "salmon_relevance": "UCI Chinook and sockeye migration flows",
+      "typical_june_cfs": 42000,
+      "typical_july_cfs": 68000,
+      "typical_aug_cfs": 56000,
+      "current_cfs": 29700.0,
+      "observed_at": "2026-07-28T22:30:00.000-08:00",
+      "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+      "flow_status": "low",
+      "pct_of_seasonal_typical": 43.7,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15292000"
+    },
+    "yukon_at_ruby": {
+      "site_no": "15565447",
+      "description": "Yukon River at Ruby, AK",
+      "river": "Yukon River",
+      "region": "Interior",
+      "salmon_relevance": "Yukon Chinook salmon management flows",
+      "typical_june_cfs": 248000,
+      "typical_july_cfs": 284000,
+      "typical_aug_cfs": 212000,
+      "current_cfs": 528000.0,
+      "observed_at": "2026-07-28T21:45:00.000-08:00",
+      "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+      "flow_status": "high",
+      "pct_of_seasonal_typical": 185.9,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15565447"
+    },
+    "kuskokwim_at_bethel": {
+      "site_no": "15304000",
+      "description": "Kuskokwim River at Bethel, AK",
+      "river": "Kuskokwim River",
+      "region": "Western Alaska",
+      "salmon_relevance": "Kuskokwim subsistence fisheries management",
+      "typical_june_cfs": 88000,
+      "typical_july_cfs": 112000,
+      "typical_aug_cfs": 86000,
+      "current_cfs": 147000.0,
+      "observed_at": "2026-07-28T21:45:00.000-08:00",
+      "fetched_at": "2026-07-29T06:44:43.168845+00:00",
+      "flow_status": "above_normal",
+      "pct_of_seasonal_typical": 131.2,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15304000"
+    }
+  }
+}
