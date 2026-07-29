@@ -1,0 +1,15 @@
+{
+  "name": "weather-hydrology-scraper",
+  "version": "1.0.0",
+  "description": "USGS NWIS + NOAA NWS scraper for alaskafishdata/weather-hydrology",
+  "private": true,
+  "scripts": {
+    "scrape": "tsx src/scrape-weather-hydrology.ts",
+    "dev": "tsx src/scrape-weather-hydrology.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
