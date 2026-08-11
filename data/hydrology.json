@@ -2,7 +2,7 @@
   "_meta": {
     "source": "USGS National Water Information System (NWIS) \u2014 Instantaneous Values",
     "source_url": "https://waterservices.usgs.gov/",
-    "fetched_at": "2026-08-11T17:04:14.944033+00:00",
+    "fetched_at": "2026-08-11T18:01:03.484682+00:00",
     "update_frequency": "Hourly via GitHub Actions",
     "parameter": "Discharge (00060) in cubic feet per second (cfs)",
     "gauge_count": 5
@@ -18,8 +18,8 @@
       "typical_july_cfs": 18600,
       "typical_aug_cfs": 14200,
       "current_cfs": null,
-      "fetched_at": "2026-08-11T17:04:14.944033+00:00",
-      "error": "parse_error: No values"
+      "fetched_at": "2026-08-11T18:01:03.484682+00:00",
+      "error": "fetch_failed"
     },
     "copper_near_chitina": {
       "site_no": "15214000",
@@ -31,7 +31,7 @@
       "typical_july_cfs": 168000,
       "typical_aug_cfs": 142000,
       "current_cfs": null,
-      "fetched_at": "2026-08-11T17:04:14.944033+00:00",
+      "fetched_at": "2026-08-11T18:01:03.484682+00:00",
       "error": "fetch_failed"
     },
     "susitna_near_talkeetna": {
@@ -44,7 +44,7 @@
       "typical_july_cfs": 68000,
       "typical_aug_cfs": 56000,
       "current_cfs": null,
-      "fetched_at": "2026-08-11T17:04:14.944033+00:00",
+      "fetched_at": "2026-08-11T18:01:03.484682+00:00",
       "error": "fetch_failed"
     },
     "yukon_at_ruby": {
@@ -57,7 +57,7 @@
       "typical_july_cfs": 284000,
       "typical_aug_cfs": 212000,
       "current_cfs": null,
-      "fetched_at": "2026-08-11T17:04:14.944033+00:00",
+      "fetched_at": "2026-08-11T18:01:03.484682+00:00",
       "error": "fetch_failed"
     },
     "kuskokwim_at_bethel": {
@@ -70,7 +70,7 @@
       "typical_july_cfs": 112000,
       "typical_aug_cfs": 86000,
       "current_cfs": null,
-      "fetched_at": "2026-08-11T17:04:14.944033+00:00",
+      "fetched_at": "2026-08-11T18:01:03.484682+00:00",
       "error": "fetch_failed"
     }
   }
