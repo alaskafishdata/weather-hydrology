@@ -2,7 +2,7 @@
   "_meta": {
     "source": "USGS National Water Information System (NWIS) \u2014 Instantaneous Values",
     "source_url": "https://waterservices.usgs.gov/",
-    "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+    "fetched_at": "2026-08-18T15:33:39.802380+00:00",
     "update_frequency": "Hourly via GitHub Actions",
     "parameter": "Discharge (00060) in cubic feet per second (cfs)",
     "gauge_count": 5
@@ -17,11 +17,11 @@
       "typical_june_cfs": 12400,
       "typical_july_cfs": 18600,
       "typical_aug_cfs": 14200,
-      "current_cfs": 13900.0,
-      "observed_at": "2026-08-18T06:00:00.000-08:00",
-      "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+      "current_cfs": 14000.0,
+      "observed_at": "2026-08-18T07:00:00.000-08:00",
+      "fetched_at": "2026-08-18T15:33:39.802380+00:00",
       "flow_status": "normal",
-      "pct_of_seasonal_typical": 97.9,
+      "pct_of_seasonal_typical": 98.6,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15266300"
     },
     "copper_near_chitina": {
@@ -34,8 +34,8 @@
       "typical_july_cfs": 168000,
       "typical_aug_cfs": 142000,
       "current_cfs": 188000.0,
-      "observed_at": "2026-08-18T05:45:00.000-08:00",
-      "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+      "observed_at": "2026-08-18T06:45:00.000-08:00",
+      "fetched_at": "2026-08-18T15:33:39.802380+00:00",
       "flow_status": "above_normal",
       "pct_of_seasonal_typical": 132.4,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15214000"
@@ -50,7 +50,7 @@
       "typical_july_cfs": 68000,
       "typical_aug_cfs": 56000,
       "current_cfs": null,
-      "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+      "fetched_at": "2026-08-18T15:33:39.802380+00:00",
       "error": "parse_error: No values"
     },
     "yukon_at_ruby": {
@@ -62,11 +62,11 @@
       "typical_june_cfs": 248000,
       "typical_july_cfs": 284000,
       "typical_aug_cfs": 212000,
-      "current_cfs": 443000.0,
-      "observed_at": "2026-08-18T05:45:00.000-08:00",
-      "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+      "current_cfs": 442000.0,
+      "observed_at": "2026-08-18T06:45:00.000-08:00",
+      "fetched_at": "2026-08-18T15:33:39.802380+00:00",
       "flow_status": "high",
-      "pct_of_seasonal_typical": 209.0,
+      "pct_of_seasonal_typical": 208.5,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15565447"
     },
     "kuskokwim_at_bethel": {
@@ -78,11 +78,11 @@
       "typical_june_cfs": 88000,
       "typical_july_cfs": 112000,
       "typical_aug_cfs": 86000,
-      "current_cfs": 89000.0,
-      "observed_at": "2026-08-18T05:45:00.000-08:00",
-      "fetched_at": "2026-08-18T14:35:20.822279+00:00",
+      "current_cfs": 89200.0,
+      "observed_at": "2026-08-18T06:45:00.000-08:00",
+      "fetched_at": "2026-08-18T15:33:39.802380+00:00",
       "flow_status": "normal",
-      "pct_of_seasonal_typical": 103.5,
+      "pct_of_seasonal_typical": 103.7,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15304000"
     }
   }
