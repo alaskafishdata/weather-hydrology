@@ -2,7 +2,7 @@
   "_meta": {
     "source": "USGS National Water Information System (NWIS) \u2014 Instantaneous Values",
     "source_url": "https://waterservices.usgs.gov/",
-    "fetched_at": "2026-09-20T05:50:23.151707+00:00",
+    "fetched_at": "2026-09-20T10:52:11.225418+00:00",
     "update_frequency": "Hourly via GitHub Actions",
     "parameter": "Discharge (00060) in cubic feet per second (cfs)",
     "gauge_count": 5
@@ -17,9 +17,12 @@
       "typical_june_cfs": 12400,
       "typical_july_cfs": 18600,
       "typical_aug_cfs": 14200,
-      "current_cfs": null,
-      "fetched_at": "2026-09-20T05:50:23.151707+00:00",
-      "error": "fetch_failed"
+      "current_cfs": 8360.0,
+      "observed_at": "2026-09-20T02:00:00.000-08:00",
+      "fetched_at": "2026-09-20T10:52:11.225418+00:00",
+      "flow_status": "below_normal",
+      "pct_of_seasonal_typical": 58.9,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15266300"
     },
     "copper_near_chitina": {
       "site_no": "15214000",
@@ -31,7 +34,7 @@
       "typical_july_cfs": 168000,
       "typical_aug_cfs": 142000,
       "current_cfs": null,
-      "fetched_at": "2026-09-20T05:50:23.151707+00:00",
+      "fetched_at": "2026-09-20T10:52:11.225418+00:00",
       "error": "parse_error: No values"
     },
     "susitna_near_talkeetna": {
@@ -43,9 +46,12 @@
       "typical_june_cfs": 42000,
       "typical_july_cfs": 68000,
       "typical_aug_cfs": 56000,
-      "current_cfs": null,
-      "fetched_at": "2026-09-20T05:50:23.151707+00:00",
-      "error": "fetch_failed"
+      "current_cfs": 17000.0,
+      "observed_at": "2026-09-20T02:30:00.000-08:00",
+      "fetched_at": "2026-09-20T10:52:11.225418+00:00",
+      "flow_status": "low",
+      "pct_of_seasonal_typical": 30.4,
+      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15292000"
     },
     "yukon_at_ruby": {
       "site_no": "15565447",
@@ -57,7 +63,7 @@
       "typical_july_cfs": 284000,
       "typical_aug_cfs": 212000,
       "current_cfs": null,
-      "fetched_at": "2026-09-20T05:50:23.151707+00:00",
+      "fetched_at": "2026-09-20T10:52:11.225418+00:00",
       "error": "parse_error: No values"
     },
     "kuskokwim_at_bethel": {
@@ -70,8 +76,8 @@
       "typical_july_cfs": 112000,
       "typical_aug_cfs": 86000,
       "current_cfs": null,
-      "fetched_at": "2026-09-20T05:50:23.151707+00:00",
-      "error": "fetch_failed"
+      "fetched_at": "2026-09-20T10:52:11.225418+00:00",
+      "error": "parse_error: No values"
     }
   }
 }
