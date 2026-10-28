@@ -44,10 +44,10 @@ def fetch_station_obs(station_id: str) -> dict | None:
         return None
 
 
-def kelvin_to_f(k: float | None) -> float | None:
-    if k is None:
+def c_to_f(c: float | None) -> float | None:
+    if c is None:
         return None
-    return round((k - 273.15) * 9/5 + 32, 1)
+    return round(c * 9/5 + 32, 1)
 
 
 def mps_to_mph(mps: float | None) -> float | None:
@@ -89,7 +89,7 @@ def main():
             "description": info["description"],
             "observed_at": props.get("timestamp"),
             "fetched_at": now,
-            "temp_f": kelvin_to_f(temp_c) if temp_c is not None else None,
+            "temp_f": c_to_f(temp_c) if temp_c is not None else None,
             "temp_c": round(temp_c, 1) if temp_c is not None else None,
             "wind_speed_mph": mps_to_mph(wind_speed_mps),
             "wind_direction_deg": round(wind_dir, 0) if wind_dir is not None else None,
@@ -99,7 +99,7 @@ def main():
             "icon": icon_url,
             "fishing_outlook": _fishing_outlook(temp_c, wind_speed_mps, text_desc),
         }
-        print(f"    ✓ {location}: {kelvin_to_f(temp_c)}°F, {text_desc[:40]}")
+        print(f"    ✓ {location}: {c_to_f(temp_c)}°F, {text_desc[:40]}")
 
     weather_output = {
         "_meta": {
