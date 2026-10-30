@@ -2,7 +2,7 @@
   "_meta": {
     "source": "USGS National Water Information System (NWIS) \u2014 Instantaneous Values",
     "source_url": "https://waterservices.usgs.gov/",
-    "fetched_at": "2026-10-30T01:40:18.872776+00:00",
+    "fetched_at": "2026-10-30T08:14:32.821111+00:00",
     "update_frequency": "Hourly via GitHub Actions",
     "parameter": "Discharge (00060) in cubic feet per second (cfs)",
     "gauge_count": 5
@@ -17,12 +17,9 @@
       "typical_june_cfs": 12400,
       "typical_july_cfs": 18600,
       "typical_aug_cfs": 14200,
-      "current_cfs": 3530.0,
-      "observed_at": "2026-10-29T17:00:00.000-08:00",
-      "fetched_at": "2026-10-30T01:40:18.872776+00:00",
-      "flow_status": "low",
-      "pct_of_seasonal_typical": 22.8,
-      "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15266300"
+      "current_cfs": null,
+      "fetched_at": "2026-10-30T08:14:32.821111+00:00",
+      "error": "parse_error: No values"
     },
     "copper_near_chitina": {
       "site_no": "15214000",
@@ -33,11 +30,11 @@
       "typical_june_cfs": 124000,
       "typical_july_cfs": 168000,
       "typical_aug_cfs": 142000,
-      "current_cfs": 22000.0,
-      "observed_at": "2026-10-29T16:45:00.000-08:00",
-      "fetched_at": "2026-10-30T01:40:18.872776+00:00",
+      "current_cfs": 21200.0,
+      "observed_at": "2026-10-29T23:45:00.000-08:00",
+      "fetched_at": "2026-10-30T08:14:32.821111+00:00",
       "flow_status": "low",
-      "pct_of_seasonal_typical": 15.1,
+      "pct_of_seasonal_typical": 14.5,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15214000"
     },
     "susitna_near_talkeetna": {
@@ -50,7 +47,7 @@
       "typical_july_cfs": 68000,
       "typical_aug_cfs": 56000,
       "current_cfs": null,
-      "fetched_at": "2026-10-30T01:40:18.872776+00:00",
+      "fetched_at": "2026-10-30T08:14:32.821111+00:00",
       "error": "parse_error: No values"
     },
     "yukon_at_ruby": {
@@ -63,8 +60,8 @@
       "typical_july_cfs": 284000,
       "typical_aug_cfs": 212000,
       "current_cfs": -999999.0,
-      "observed_at": "2026-10-29T16:45:00.000-08:00",
-      "fetched_at": "2026-10-30T01:40:18.872776+00:00",
+      "observed_at": "2026-10-29T23:45:00.000-08:00",
+      "fetched_at": "2026-10-30T08:14:32.821111+00:00",
       "flow_status": "low",
       "pct_of_seasonal_typical": -375.9,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15565447"
@@ -78,11 +75,11 @@
       "typical_june_cfs": 88000,
       "typical_july_cfs": 112000,
       "typical_aug_cfs": 86000,
-      "current_cfs": 67100.0,
-      "observed_at": "2026-10-29T16:45:00.000-08:00",
-      "fetched_at": "2026-10-30T01:40:18.872776+00:00",
+      "current_cfs": 68100.0,
+      "observed_at": "2026-10-29T23:45:00.000-08:00",
+      "fetched_at": "2026-10-30T08:14:32.821111+00:00",
       "flow_status": "below_normal",
-      "pct_of_seasonal_typical": 67.1,
+      "pct_of_seasonal_typical": 68.1,
       "usgs_url": "https://waterdata.usgs.gov/nwis/uv?site_no=15304000"
     }
   }
